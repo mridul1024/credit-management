@@ -1,0 +1,113 @@
+#index-body, #users-body, #details-body, #credit-transfer-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/images/gradient.jpg');
+    background-size: cover;
+}
+
+#navbar{
+    margin: auto;
+    margin-top: 0;
+    padding: 20px;
+}
+
+#navbar ul li{
+    padding: 10px;
+}
+
+#navbar ul li a{
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#navbar ul li a:hover{
+    border: 1px solid white;
+}
+
+#box{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+#details-box{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #E2E1DC;
+    border-radius: 2%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#details-box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    float: left;
+}
+
+.card-body{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#view-btn{
+    margin: auto;
+    margin-top: 35px;
+}
+
+#transfer-btn{
+    margin: auto;
+    margin-top: 35px;
+}
+
+#credit-transfer-box{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #E2E1DC;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#credit-transfer-box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
