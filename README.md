@@ -11,4 +11,3 @@ This is a web application and it display's all the user's which have a limited a
 - PHP
 - CSS
 
-## Screenshots
